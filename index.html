@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/script.js"></script>
+    <link rel="SHORTCUT ICON" href="src/favicons/icon2.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <video poster="images/cyberpunk.mp4" class="bg_video" muted loop autoplay>
+        <source src="src/images/cyberpunk-ninja-neon-metropolis-moewalls.com.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <div class="efeito-vidro">
+            <div class="box">
+                <div id="login">
+                    <form action="" class="card" method="post">
+                        <div class="card-header ">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-content-area">
+                                <label for="usuario"></label>
+                                <input type="text" id="usuario" autocomplete="off" placeholder="User" minLength="4" maxLength="18" required>
+                            </div>
+                            <div class="card-content-area">
+                                <label for="password"></label>
+                                <input type="password" id="password" autocomplete="off" placeholder="Password" minLength="4" maxLength="18" required>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <input type="submit" value="Login" class="submit">
+                            <a href="# " class="recuperar_senha">Esqueceu a senha?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
