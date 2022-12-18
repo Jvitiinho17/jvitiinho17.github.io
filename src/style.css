@@ -6,6 +6,8 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     position: fixed;
+
+    background-color: gray;
 }
 
 .container {
@@ -36,7 +38,7 @@ body {
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: 790px;
+    height: 790px; /* 790px */
     z-index: -1000;
     background: url(src/images/cyberpunk-ninja-neon-metropolis-moewalls.com.mp4) no-repeat;
     background-size: cover;
